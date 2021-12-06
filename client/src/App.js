@@ -27,9 +27,9 @@ function App() {
         <Route
           path='/'
           element={<Songs jpegmafia={jpegmafia} />} />
-        {/* <Route
+        <Route
           path='/new'
-          element={<Form setToggle={setToggle} />} /> */}
+          element={<Form setToggle={setToggle} />} />
           <Route
           path='/songs/:id'
           element={<Song jpegmafia={jpegmafia} />}
