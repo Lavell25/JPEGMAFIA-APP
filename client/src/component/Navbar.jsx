@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div>
+    <div
+      style={{
+        color: "white"
+    }}>
       <Link to="/"></Link>
       <div
         className="title-header"
@@ -12,7 +15,6 @@ export default function Navbar() {
           border: "20px",
           display: "grid",
           textAlign: "center",
-
         }}
       >
         <Link to="/new">Make Your Own Jpegmafia Song Title</Link>

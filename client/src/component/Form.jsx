@@ -23,7 +23,14 @@ export default function Form(props) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div id="floatContainer" class="float-container">
+      <div
+        class="input-container"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}>
         <input
           placeholder="Enter your Alias"
           type="text"
@@ -31,7 +38,7 @@ export default function Form(props) {
           name="user"
           onChange={(e) => setUser(e.target.value)}
         />
-      </div>
+      
       <input
         type="text"
         placeholder="Enter a song title ex: 'Skinny white girls love diet coke'"  
@@ -39,7 +46,7 @@ export default function Form(props) {
         name="title"
         onChange={(e) => setTitle(e.target.value)}
       />
-
+      </div>
       <button>ALLCAPSNOSPACES</button>
     </form>
   );
