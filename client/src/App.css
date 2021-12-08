@@ -28,11 +28,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .float-container {
+  border: solid 1px #ccc;
+  padding: 0 8px;
+  position: relative;
 }
+/* .float-container input {
+  border: none;
+  font-size: 16px;
+  outline: 0;
+  padding: 16px 0 10px;
+} */
+/* label {
+  font-size: 16px;
+  position: absolute;
+  transform: translate(0, 16px) scale(1);
+} */
