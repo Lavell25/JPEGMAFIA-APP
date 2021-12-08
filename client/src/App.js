@@ -25,12 +25,29 @@ function App() {
   }, [toggle]);
 
   return (
-    <div className="App">
-      <h1>JPEGMAFIA Song Title Generator</h1>
+    <div
+      className="App"
+      style={{
+        backgroundImage:
+          'url("https://i.pinimg.com/736x/c5/eb/98/c5eb9821e84094ae93af91084bcc3ae9.jpg")',
+        height: "1000px",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        width: "100vw",
+      }}
+    >
+      <h1
+        style={{
+          color: "red",
+          fontSize: "60px"
+        }}> JPEGMAFIA Song Title Generator </h1>
       <Navbar />
       <Routes>
         <Route path="/" element={<Songs jpegmafia={jpegmafia} />} />
-        <Route path="/new" element={<Form setToggle={setToggle} setUser={setUser} />} />
+        <Route
+          path="/new"
+          element={<Form setToggle={setToggle} setUser={setUser} />}
+        />
         <Route path="/songs/:id" element={<Song jpegmafia={jpegmafia} />} />
         <Route
           path="/users/:id"

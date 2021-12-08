@@ -6,13 +6,13 @@ import { useNavigate } from "react-router"
 
 export default function Song(props) {
 
-  const [song, setSong] = useState({})
+  const [song, setSong] = useState('')
   const navigate = useNavigate()
   
   const handleSubmit = async (e) => {
     e.preventDefault()
     const playSong = {
-      song
+      song,
     }
     const response = await postJpegmafiaSong(playSong)
     props.setSong(response)
