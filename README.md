@@ -117,4 +117,4 @@ Creating algoriythm that made a matching song play onto the page. (Big shout out
 ### Opportunities:
 I learned a lot about where I'm comfortable in react and where I'm not, so I viewed it as a huge step in my journey as a software engineer.
 ### Threats:
-Time most, but arent we all victims of time?
+Time mostly, but arent we all victims of time?
