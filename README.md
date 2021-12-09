@@ -77,42 +77,44 @@ Airtable is returning the data for this base as follows:
 
 - Collaborate with a UX student to make the UI more attractive/user-friendly.
 - Get and post new Jpegmafia song titles
+- Auto Play random JpegMafia songs on the homepage
 
 ## Project Schedule
 
 | Day          | Deliverable                                         | Status     |
 | ------------ | --------------------------------------------------- | ---------- |
-| December 1   | Prompt / Wireframes / Project Approval / Timeframes | Incomplete |
-| December 2-3 | API Construction                                    | Incomplete |
-| December 4-5 | Working with React Code                             | Incomplete |
-| December 6   | Adding Components to the Parent                     | Incomplete |
-| December 7   | Initial Clickable Model                             | Incomplete |
-| December 8   | MVP                                                 | Incomplete |
-| December 9   | Presentations                                       | Incomplete |
+| December 1   | Prompt / Wireframes / Project Approval / Timeframes |  complete  |
+| December 2-3 | API Construction                                    |  complete  |
+| December 4-5 | Working with React Code                             |  complete  |
+| December 6   | Adding Components to the Parent                     |  complete  |
+| December 7   | Initial Clickable Model                             |  complete  |
+| December 8   | MVP                                                 |  complete  |
+| December 9   | Presentations                                       |  complete  |
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |               |             |
-| Airtable setup            |    H     |      4hrs      |               |             |
-| Clickable icons           |    H     |      3hrs      |               |             |
-| Data population pg 1      |    H     |      5hrs      |               |             |
-| Data population pg 2      |    H     |      5hrs      |               |             |
-| Form creation pg 1        |    H     |      5hrs      |               |             |
-| Form creation pg 2        |    H     |      5hrs      |               |             |
-| Data creation/update pg 1 |    H     |      3hrs      |               |             |
-| Data creation/update pg 2 |    H     |      4hrs      |               |             |
-| Component CSS pg 1        |    H     |      4hrs      |               |             |
-| Component CSS pg 2        |    H     |      3hrs      |               |             |
-| Total                     |    H     |     42hrs      |               |             |
+| Proposal                  |    H     |      2hrs      |      1hr      |     1hr     |
+| Airtable setup            |    H     |      4hrs      |      4hrs     |     4hrs    |
+| Clickable icons           |    H     |      3hrs      |      2hrs     |     2hrs    |
+| Data population pg 1      |    H     |      5hrs      |      6hrs     |     6hrs    |
+| Data population pg 2      |    H     |      5hrs      |      6hrs     |     6hrs    |
+| Form creation pg 1        |    H     |      5hrs      |      3hrs     |     3hrs    |
+| Form creation pg 2        |    H     |      5hrs      |      3hrs     |     3hrs    |
+| Data creation/update pg 1 |    H     |      3hrs      |      3hrs     |     3hrs    |
+| Data creation/update pg 2 |    H     |      4hrs      |      3hrs     |     3hrs    |
+| Component CSS pg 1        |    H     |      4hrs      |      6hrs     |     6hrs    |
+| Component CSS pg 2        |    H     |      3hrs      |      6hrs     |     6hrs    |
+| Total                     |    H     |     42hrs      |      43hrs    |     43hrs   |
 
 ## SWOT Analysis
 
 ### Strengths:
-
+Inline styling components
 ### Weaknesses:
-
+Creating algoriythm that made a matching song play onto the page. (Big shout out to Raul!)
 ### Opportunities:
-
+I learned a lot about where I'm comfortable in react and where I'm not, so I viewed it as a huge step in my journey as a software engineer.
 ### Threats:
+Time most, but arent we all victims of time?
