@@ -1,39 +1,36 @@
-import { useState } from "react"
-import { postJpegmafiaSong } from "../services"
-import { useNavigate } from "react-router"
-
-
+import { useState } from "react";
+import { postJpegmafiaSong } from "../services";
+import { useNavigate } from "react-router";
 
 export default function Song(props) {
+  const [song, setSong] = useState("");
+  const navigate = useNavigate();
 
-  const [song, setSong] = useState('')
-  const navigate = useNavigate()
-  
   const handleSubmit = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
     const playSong = {
       song,
-    }
-    const response = await postJpegmafiaSong(playSong)
-    props.setSong(response)
-    props.setToggle(prevToggle => !prevToggle)
+    };
+    const response = await postJpegmafiaSong(playSong);
+    props.setSong(response);
+    props.setToggle((prevToggle) => !prevToggle);
     if (response) {
-      navigate(`/users/${response.id}`)
+      navigate(`/users/${response.id}`);
     }
-    
+  }
+
     return (
       <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={song}
-          name='mp3'
+          name="mp3"
           onChange={(e) => setSong(e.target.value)}
         />
         <button>Press Play</button>
       </form>
-    )
-  }
-}
+    );
+  };
 
 
 // const [song, setSong] = useState({})

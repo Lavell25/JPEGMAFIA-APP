@@ -7,6 +7,8 @@ import Form from "./component/Form";
 import Songs from "./component/Songs";
 import Song from "./component/Song";
 import UserSong from "./component/UserSong";
+import Footer from "./component/Footer";
+
 
 function App() {
   const [jpegmafia, setJpegmafia] = useState([]);
@@ -36,11 +38,7 @@ function App() {
         width: "100vw",
       }}
     >
-      <h1
-        style={{
-          color: "red",
-          fontSize: "60px"
-        }}> JPEGMAFIA Song Title Generator </h1>
+      <h1> JPEGMAFIA Song Title Generator </h1>
       <Navbar />
       <Routes>
         <Route path="/" element={<Songs jpegmafia={jpegmafia} />} />
@@ -51,9 +49,10 @@ function App() {
         <Route path="/songs/:id" element={<Song jpegmafia={jpegmafia} />} />
         <Route
           path="/users/:id"
-          element={<UserSong jpegmafia={jpegmafia} user={user} />}
+          element={<UserSong jpegmafia={jpegmafia} user={user} users={users} />}
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

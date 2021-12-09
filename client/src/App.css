@@ -1,37 +1,26 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.App {
+  display: flexbox;
+  text-align: center;
+  @media (max-width: 960px;) {
+    text-align: center;
+    padding: 0 2% 1.25rem;
+    font-size: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+  color: red;
+  height: 30px;
+}
+
+.link {
   color: white;
 }
 
-/* .float-container {
-  border: solid 1px #ccc;
-  padding: 0 8px;
-  position: relative;
+.user-information {
+  color: white;
 }
-/* .float-container input {
-  border: none;
-  font-size: 16px;
-  outline: 0;
-  padding: 16px 0 10px;
-} */
-/* label {
-  font-size: 16px;
-  position: absolute;
-  transform: translate(0, 16px) scale(1);
-} */
